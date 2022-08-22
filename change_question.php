@@ -43,7 +43,7 @@ $result_select = mysqli_query($link, $sql);
       <script>
         var ok_button = document.getElementById("ok");
         var select = document.getElementById("question-select");
-        select.addEventListener('change', (event) => {ok_button.href = "change_question_change_answer.php?question_id=" + select.value;});
+        select.addEventListener('change', (event) => {ok_button.href = "change_question_change_question.php?question_id=" + select.value;});
         ok_button.href = "change_question_change_question.php?question_id=" + select.value;
       </script>
   </body>

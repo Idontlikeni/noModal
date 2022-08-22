@@ -75,7 +75,8 @@
                         <!--textarea class="area"style="width: 65%; height:40px; margin:0px 10px -14px 7px;">Пицца</textarea-->
                     </fieldset>
                 <?php endwhile;?>
-                <input type="submit">
+                <input type="submit" name="submit" value="Применить">
+                <input type="submit" name="delete" value="удалить вопрос">
                 <a href="index.html" class="button" name="button" type="button">back</a>
             </form>
         </div>
